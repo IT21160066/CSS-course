@@ -6,8 +6,21 @@
 }
 
 .container {
-  border: dashed red;
+  border: 5px double red;
   font-size: 1.5rem;
   margin: 1.5em;
   padding: 1.5em;
+  outline: 2px solid orange;
+  outline-offset: 5px;
+}
+
+.circle {
+  margin: 3rem auto;
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+  border: 2px solid brown;
+  outline: 2px solid orange;
+  outline-offset: 0.25rem;
+  border-radius: 50%;
 }
